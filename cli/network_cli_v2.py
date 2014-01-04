@@ -14,3 +14,7 @@ class MyClass(object):
         '''
         Constructor
         '''
+        self.name = 'jeff'
+
+    def print_name(self):
+        print self.name
